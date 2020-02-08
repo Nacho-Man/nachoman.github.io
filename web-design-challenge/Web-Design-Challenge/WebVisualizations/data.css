@@ -1,0 +1,161 @@
+/* giving the body a dark background to better see the bright colored boxes */
+body {
+    background: silver;
+  }
+  
+  .nav-item {
+    text-align:right !important;
+  }
+  .navbar-nav {
+    text-align:right !important;
+    float: inline-end;
+    clear: right;
+  }
+#first_row{
+    text-align: left;
+    clear: left;
+    float: left;
+}
+  #nitems {
+  
+  }
+  .container {
+  float: inline-end;
+  clear: inline-end;
+  text-align: left;
+  }
+  #specitems {
+    float: inline-end;
+    text-align: right;
+    clear: inline-end;
+    }
+  .row {
+    float: right;
+  }
+  
+  #heading {
+    text-align: center;
+    padding: 50px;
+  
+  }
+  #para_content {
+  background-color: cornflowerblue;
+  }
+  
+  #spaceCreator {
+      padding: 50px;
+      float: left;
+  }
+  
+  #mainContent {
+    /*this gives space off the left */
+    background-color: cornflowerblue;
+    adding-right: 20px;
+  
+  
+  }
+  /*
+  #foot {
+    position: fixed;
+    bottom: 0px;
+    left: 200px;
+    text-align: center;
+  }
+  */
+  #latmap {
+    float: right;
+    clear: right;
+  
+    width: 100%;
+    height: auto;
+  }
+  #textbox {
+
+  }
+  #titlebox {
+    float: left;
+  }
+  h1 {
+    text-align: center;
+  }
+  #otherViz {
+    background-color: yellow;
+    padding-left: 40px;
+    padding-left: 40px;
+    align-items: center;
+    text-align: center;
+  
+  }
+  
+  hr {
+    border: 0;
+    width: 100%;
+    background-color:#FFFF00;
+    height: 1px;
+  }
+  #otherimg {
+  
+    height: fit-content;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  #othermap {
+  
+    float: none;
+    clear: none;
+  
+    width: 50%;
+    height: auto;
+  }
+
+iframe {
+    height: 1000px;
+    width: 1000px;
+}
+  
+  
+  /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+  
+  @media (max-width: 768px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
+  
+    .nav-item dropdown active {
+  
+      padding: 10px;
+    }
+    #mainContent {
+      /*this gives space off the left */ 
+      background-color: cornflowerblue;
+      width: 80%;
+      min-width: 50%;
+    }
+    .navbar-toggler-icon {
+    float: inline-end;
+    clear: inline-end;
+    }
+    .container {
+      float: inline-end;
+      clear: inline-end;
+  
+      }
+    #latmap {
+      float: none;
+      clear: none;
+      width: auto;
+      height: auto;
+    }
