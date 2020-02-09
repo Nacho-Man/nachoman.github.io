@@ -74,7 +74,7 @@ body {
     text-align: center;
   }
   #otherViz {
-    background-color: yellow;
+    background-color: lightyellow;
     padding-left: 40px;
     padding-left: 40px;
     align-items: center;
@@ -96,8 +96,6 @@ body {
   }
   #othermap {
   
-    float: none;
-    clear: none;
   
     width: 50%;
     height: auto;

@@ -75,10 +75,12 @@ h1 {
   text-align: center;
 }
 #otherViz {
-  background-color: yellow;
+  background-color: lightyellow;
   padding-left: 20px;
   align-items: center;
   text-align: center;
+  clear: both;
+  float: both;
 
 }
 
@@ -91,16 +93,18 @@ hr {
 #otherimg {
 
   height: fit-content;
-  display: inline-block;
   margin-bottom: 20px;
+  clear: both;
+  display: block;
 }
 #othermap {
 
-  float: inline;
-  clear: inline;
-
+  float: initial;
+  clear: both;
   width: 50%;
   height: auto;
+  display: block;
+  margin: auto;
 }
 
 
